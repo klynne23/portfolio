@@ -1,0 +1,282 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+/* 
+=======================
+MAIN PAGE CONTENT
+=======================
+*/
+
+
+
+
+
+
+/* 
+=======================
+ABOUT CONTENT
+=======================
+*/
+
+
+#aboutTitle {
+    margin-left: 10px;
+}
+
+.aboutContent {
+    display: flex;
+}
+
+.aboutImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutImg {
+    flex: 1;
+    width: 300px;
+    margin: 15px 10px 0;
+}
+
+#mePic {
+    border: 10px solid white;
+    width: 310px;
+    height: 310px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 500px;
+}
+
+
+/* 
+=======================
+LINKS CONTENT
+=======================
+*/
+
+
+.contactLinks {
+    margin-top: 150px;
+    padding: 50px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#formDiv {
+    border: 1px solid white;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* 
+=======================
+RESUME CONTENT
+=======================
+*/
+
+
+h2#resumeTitle {
+    font-size: 5em;
+    margin-bottom: 5px;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0));
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+hr.divider {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0));
+
+}
+hr.divider:after {
+    content: '//';
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+}
+
+#gM {
+    margin-top: 25px;
+}
+
+
+/* 
+=======================
+WORK CONTENT
+=======================
+*/
+
+
+@media screen and (min-width: 900px) {
+
+    .bl-content > ul li {
+        display: inline-block;
+        width: 45%;
+        margin: 2%;
+    }
+
+
+}
+
+@media screen and (max-width: 385px) {
+
+    #mePic {
+        border: 3px solid white;
+        width: 270px;
+        height: 270px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        float: left;
+        border-radius: 500px;
+    }
+
+}
+
+@media screen and (max-width: 458px) {
+
+    .bl-content article a {
+        font-size: 1.3em
+    }
+
+    .bl-content article h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 744px) {
+
+    .bl-content article a {
+        font-size: 1.9em
+    }
+
+    .bl-content article h3 {
+       font-size: 3em;
+    }
+   
+}
+
+@media screen and (max-width: 529px) {
+
+    .bl-content article {
+        padding: 0;
+    }
+}
+
+#portfolioTitle {
+    margin-bottom: 5px;
+}
+
+#portfolioSubtitle {
+    margin-bottom: 5px;
+}
+
+.projectLink {
+    transition: .4s;
+    color: #d3faff;
+}
+
+a.projectLink:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+
+/* form css */
+
+.form-style-6{
+	/* font: 95% Arial, Helvetica, sans-serif; */
+	max-width: 800px;
+    margin: 10px auto;
+    margin-top: 35px;
+    padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: linear-gradient(to bottom, #54A2D2, #2d6c94);
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #2d6c94;
+	padding: 3%;
+	border: 1px solid #2d6c94;
+}
+
+.form-style-6 button[type="submit"],
+.form-style-6 button[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: linear-gradient(to bottom, #54A2D2, #2d6c94);
+	/* border-bottom: 2px solid #30C29E; */
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+    color: #fff;
+    font-size: 1.5em;
+}
+.form-style-6 button[type="submit"]:hover,
+.form-style-6 button[type="button"]:hover{
+	background: linear-gradient(to bottom, #54A2D2, #2d6c94);
+}
